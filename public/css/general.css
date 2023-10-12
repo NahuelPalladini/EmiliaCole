@@ -1,0 +1,17 @@
+/* Para crear variables en css */
+:root {
+    --tipografiaTitulos: 'Raleway', sans-serif;
+    --tipografiaEmilia: 'Work Sans', sans-serif;
+    --tipografiaGeneral: 'Open Sans', sans-serif;
+}
+
+body{
+    font-family: var(--tipografiaGeneral);
+}
+
+h1{
+    font-family: var(--tipografiaTitulos);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 65px;
+}

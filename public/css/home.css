@@ -1,0 +1,25 @@
+body.home{
+    background-image: url('/img/emilia-home.jpg');
+    background-repeat: no-repeat; /* Para no repetir imagen cuando es mas chica que la pantalla */
+    background-size: cover; /* Tamaño de la imamgen */
+    background-size: 75%; /* Ancho */
+    background-position: right -100px; /* - es más */
+}
+
+/* .home__main{
+    
+} */
+
+.home__main h2{
+    font-family: var(--tipografiaEmilia);
+    text-transform: uppercase; /* Mayuscula */
+    line-height: 36px; /* Grosor de letra */
+    letter-spacing: 3px; /* Espaciado entre Letras */
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.home__main h1{
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
