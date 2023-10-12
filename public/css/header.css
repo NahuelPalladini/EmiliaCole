@@ -1,0 +1,18 @@
+.header__nav--menu a {
+    text-transform: uppercase; /* todo mayuscula */
+    line-height: 30px; /* Separar entre palabras */
+    color: gray
+}
+
+.header__nav--redes a {
+    color: rgb(0, 0, 0);
+}
+
+.header--vertical{
+   margin-left: 30px ; /* espaciado entre el borde del elemento y del body */
+   
+}
+
+/* .header--horizontal{
+    
+} */

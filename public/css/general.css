@@ -15,3 +15,15 @@ h1{
     font-weight: 700;
     font-size: 65px;
 }
+
+ul li {
+    list-style: none; /* Sacar viñetas */
+}
+
+a {
+    text-decoration: none; /* sacar el subrayado */
+}
+
+ul {
+    padding-left: 0; /* Todos los elementos a la izq. */
+}
