@@ -1,18 +1,30 @@
-.header__nav--menu a {
-    text-transform: uppercase; /* todo mayuscula */
+header{
+    text-transform: uppercase; /* Todo mayuscula */
+}
+
+.header__nav--menu--vertical ul a {
     line-height: 30px; /* Separar entre palabras */
     color: gray
 }
 
-.header__nav--redes a {
-    color: rgb(0, 0, 0);
+.header__nav--redes a, .header__nav--menu--horizontal ul li a{
+    color: black;
 }
 
 .header--vertical{
    margin-left: 30px ; /* espaciado entre el borde del elemento y del body */
    
 }
+.header--horizontal{
+text-align: right;
+}
 
-/* .header--horizontal{
-    
-} */
+.header__nav--menu--horizontal{
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 30px 0;
+}
+
+.header__nav--menu--horizontal ul li {
+    display: inline; /* como se visualice */
+
+}

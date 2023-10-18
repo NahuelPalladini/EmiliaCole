@@ -5,6 +5,9 @@
     --tipografiaGeneral: 'Open Sans', sans-serif;
 }
 
+/* selecctor unviersas ( * ) */
+*{margin: 0;}
+
 body{
     font-family: var(--tipografiaGeneral);
 }
