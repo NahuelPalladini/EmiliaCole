@@ -3,13 +3,15 @@
     --tipografiaTitulos: 'Raleway', sans-serif;
     --tipografiaEmilia: 'Work Sans', sans-serif;
     --tipografiaGeneral: 'Open Sans', sans-serif;
+    --colorVerde: #44a391
 }
 
 /* selecctor unviersas ( * ) */
 *{margin: 0;}
 
 body{
-    font-family: var(--tipografiaGeneral);
+    font-family: var(--tipografiaGeneral); 
+    padding: 5px;
 }
 
 h1{
