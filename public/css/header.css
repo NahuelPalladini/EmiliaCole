@@ -17,13 +17,25 @@ header{
 }
 .header--horizontal{
 text-align: right;
+padding: 20px 8px 20px;
+}
+
+.header--music{
+    background-image: url('/img/emilia-music-top.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header__nav--menu--horizontal{
     background-color: rgb(255, 255, 255, 0.5);
     padding: 25px 0;
-    margin: 20px, 0;
+    /* margin: 20px, 0; */
+} 
+
+.header__nav--redes{
+    margin-top: 20px;
 }
+
 
 .header__nav--menu--horizontal ul li {
     display: inline; /* como se visualice */
