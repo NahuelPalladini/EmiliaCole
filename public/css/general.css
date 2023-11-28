@@ -6,7 +6,7 @@
     --colorVerde: #44a391
 }
 
-/* selecctor unviersas ( * ) */
+/* selecctor unviersal ( * ) */
 *{margin: 0;}
 
 body{
@@ -16,9 +16,9 @@ body{
 
 h1{
     font-family: var(--tipografiaTitulos);
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 65px;
+    text-transform: uppercase; /* Mayuscula o minuscula */
+    font-weight: 700; /* peso o grosor de letra */
+    font-size: 65px; /* tamaño */
 }
 
 ul li {
